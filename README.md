@@ -3,10 +3,10 @@
 
 <h2 align="center">📚 Studying 📚</h2>
 <div align="center">
-  <img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=black">
-  <img src="https://img.shields.io/badge/python-3776AB?style-for-the-badge&logo=python&logoColor=fffffff">
-  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  ![C](https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+  ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
+  ![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
 </div>
 
 <br>
