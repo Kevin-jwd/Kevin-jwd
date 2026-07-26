@@ -3,10 +3,16 @@
 
 <h2 align="center">📚 Studying 📚</h2>
 <div align="center">
-  <img src="https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=black">
-  <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  
+  ![C](https://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+  ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+  ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![Arm](https://img.shields.io/badge/arm-%230091BD.svg?style=for-the-badge&logo=arm&logoColor=white)
+  
+  ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+  ![Github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
+  ![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
+  ![Obsidian](https://img.shields.io/badge/Obsidian-%23483699.svg?style=for-the-badge&logo=obsidian&logoColor=white)
 </div>
 
 <br>
