@@ -87,7 +87,7 @@
 
 | 기간 | 참여 인원 | 구분 |
 | --- | --- | --- |
-| YYYY.MM ~ YYYY.MM | __명 (본인 포함) | 팀 프로젝트 |
+| 2026.11.04 ~ 2026.11.06 | 2명 (본인 포함) | 팀 프로젝트 |
 
 <img src="https://img.shields.io/badge/Verilog-654FF0?style=flat-square" alt="Verilog"> <img src="https://img.shields.io/badge/Vivado-ED1C24?style=flat-square&logo=amd&logoColor=white" alt="Vivado"> <img src="https://img.shields.io/badge/Basys%203%20%C3%97%202-555555?style=flat-square" alt="Basys 3 × 2"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> <img src="https://img.shields.io/badge/DHT11-00897B?style=flat-square" alt="DHT11"> <img src="https://img.shields.io/badge/HC--SR04-00897B?style=flat-square" alt="HC-SR04"> <img src="https://img.shields.io/badge/SSD1306-555555?style=flat-square" alt="SSD1306">
 
