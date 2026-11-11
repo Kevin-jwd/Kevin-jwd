@@ -84,37 +84,37 @@
 
 <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Linux%20Kernel-333333?style=flat-square" alt="Linux Kernel"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> <img src="https://img.shields.io/badge/Device%20Tree-00897B?style=flat-square" alt="Device Tree"> <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson Orin Nano"> · 팀 프로젝트
 
-- **담당:** BMP180 온도 센서·LCD1602 드라이버 및 사용자 공간의 문자 장치 접근 인터페이스
-- **구현:** 센서 보정 계수·변환 완료 상태를 반영한 온도 읽기, `pwrite()` 기반 LCD 부분 갱신, `ioctl()` 기반 화면·백라이트 제어
-- **문제 해결:** LCD 출력 이상 발생 → I2C 버스 속도와 LCD 백팩 지원 속도 대조 → LCD를 400kHz 버스에서 100kHz 버스로 분리하고 배선·Device Tree 변경 → 초기화·문자 출력 확인
+- **개요:** Jetson Orin Nano에서 센서와 구동부를 연동하는 스마트 선풍기 시스템
+- **담당:** BMP180 온도 센서·LCD1602 커널 드라이버 및 사용자 공간의 문자 장치 접근 인터페이스
+- **구현:** 보정 계수·변환 완료 상태를 반영한 온도 읽기, `pwrite()` 기반 LCD 부분 갱신, `ioctl()` 기반 화면·백라이트 제어
 - **관련 문서:** [담당 범위·드라이버 구조·트러블슈팅](https://github.com/Kevin-jwd/Lectures/tree/main/Linux/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
 
 ### [Vehicle HMI — 운전자 인증 기반 차량 제어·모니터링](https://github.com/Kevin-jwd/HMI-qt)
 
 <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++17"> <img src="https://img.shields.io/badge/Qt%20Widgets-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt Widgets"> <img src="https://img.shields.io/badge/QSerialPort-41CD52?style=flat-square&logo=qt&logoColor=white" alt="QSerialPort"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"> · 팀 프로젝트
 
-- **담당:** PC 측 Qt HMI, UART 송수신, 얼굴 인증, 영상 처리 스레드 구성 및 이력 관리
-- **구현:** Haar Cascade·LBPH 기반 얼굴 인증, 동일 인물 5회 연속 확인 후 조작 활성화, 온습도·거리·주행 상태 표시 및 SQLite 이력 조회
-- **구조:** 카메라 획득·표시·인식 스레드 분리, `SerialLink` 기반 통신 처리와 200ms 하트비트, UI 스레드에서 DB 접근
-- **연동 범위:** 팀원이 구현한 STM32 펌웨어와 UART로 연동하여 차량 조작·상태 모니터링 구성
+- **개요:** 얼굴 인증 후 차량 조작을 활성화하고 센서·주행 상태를 모니터링하는 Qt HMI 시스템
+- **담당:** PC 측 Qt HMI, UART 송수신, 얼굴 인증, 영상 처리 스레드 구성 및 이력 관리. 팀원이 구현한 STM32 펌웨어와 연동
+- **구현:** Haar Cascade·LBPH 얼굴 인증과 동일 인물 5회 연속 확인, 카메라 획득·표시·인식 스레드 분리, 200ms 하트비트, 센서 상태 표시 및 SQLite 이력 조회
+- **관련 문서:** [얼굴 인증](https://github.com/Kevin-jwd/HMI-qt/blob/main/FACE_RECOGNITION_GUIDE.md) · [데이터베이스](https://github.com/Kevin-jwd/HMI-qt/blob/main/DATABASE.md) · [설치·실행](https://github.com/Kevin-jwd/HMI-qt/blob/main/INSTALL.md)
 
 ### [Vision Tracker — 인물 추적 팬틸트 카메라](https://github.com/Vision-Tracker-Project/Vision_Tracker_Project)
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/YOLO11-111F68?style=flat-square" alt="YOLO11"> <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="TensorRT"> <img src="https://img.shields.io/badge/BoT--SORT-654FF0?style=flat-square" alt="BoT-SORT"> <img src="https://img.shields.io/badge/OSNet-654FF0?style=flat-square" alt="OSNet"> <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson Orin Nano"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART"> · 팀 프로젝트
 
-- **담당:** 웹 실행 환경·AI 인물 추적·재식별, 팬틸트 제어 로직·MCU 명령 전송, 카메라·차체 제작
-- **구현:** YOLO 인물 검출 → BoT-SORT 추적 → OSNet 외형 특징 기반 재식별 → 목표 좌표에 따른 팬·틸트 제어
-- **추적 안정화:** 최근 3개 검출 박스의 중앙값 필터, 팬틸트 동작 시작·정지 경계 분리 및 각도 제한 적용
-- **문제 해결:** 모터 구동 불량 발생 → 코드상 명령 전송 경로 점검 → 모터 인가 전압 측정으로 이상 확인 → 모터 교체 후 구동 확인
-- **시스템 구성:** 팀원이 구현한 MCU 펌웨어와 연동. 카메라는 선택 인물을 자동 추적하고, 차체는 게임패드로 수동 이동
+- **개요:** 선택한 인물을 카메라로 자동 추적하고 게임패드로 차체를 수동 조작하는 Jetson 기반 팬틸트 시스템
+- **담당:** 웹 실행 환경, AI 인물 추적·재식별, 팬틸트 제어 로직·MCU 명령 전송, 카메라·차체 제작. MCU 펌웨어는 팀원 담당
+- **구현:** YOLO 검출·BoT-SORT 추적·OSNet 재식별, 최근 3개 검출 박스의 중앙값 필터, 팬틸트 동작 시작·정지 경계 분리 및 각도 제한
+- **관련 문서:** [시스템 구조](https://github.com/Vision-Tracker-Project/Vision_Tracker_Project/blob/main/AI/ARCHITECTURE.md) · [프로젝트 소개·시연](https://github.com/Vision-Tracker-Project/Vision_Tracker_Project)
 
 ### [I2C Sensor RTL — 센서 수집·통신·표시 시스템](https://github.com/Kevin-jwd/i2c-sensor-driver)
 
 <img src="https://img.shields.io/badge/Verilog-654FF0?style=flat-square" alt="Verilog"> <img src="https://img.shields.io/badge/Vivado-ED1C24?style=flat-square&logo=amd&logoColor=white" alt="Vivado"> <img src="https://img.shields.io/badge/Basys%203%20%C3%97%202-555555?style=flat-square" alt="Basys 3 × 2"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> <img src="https://img.shields.io/badge/DHT11-00897B?style=flat-square" alt="DHT11"> <img src="https://img.shields.io/badge/HC--SR04-00897B?style=flat-square" alt="HC-SR04"> <img src="https://img.shields.io/badge/SSD1306-555555?style=flat-square" alt="SSD1306">
+
+- **개요:** 두 FPGA를 I2C로 연결해 온습도·거리 데이터를 수집하고 FND·OLED로 표시하는 시스템
 - **담당:** I2C Master·Slave 양쪽과 센서 수집·FND·OLED 표시 등 RTL 전반 직접 구현
-- **구현:** DHT11 온습도·HC-SR04 거리 측정, 두 FPGA 간 I2C 전송 및 수신 데이터 표시
-- **예외 처리:** DHT11 체크섬·타임아웃 검사, 초음파 Echo 대기·유지 시간 제한
-- **검증 자료:** 센서 데이터시트의 타이밍과 측정 파형 비교, 통신·센서 모듈 테스트벤치 및 설계 소스 정리
+- **구현:** DHT11·HC-SR04 측정, FPGA 간 I2C 전송과 데이터 표시, 체크섬·타임아웃 검사, 센서 타이밍 파형 비교 및 모듈 테스트벤치 작성
+- **관련 문서:** [설계 설명·검증 자료](https://github.com/Kevin-jwd/i2c-sensor-driver)
 
 ## 🔧 More Projects
 
@@ -122,27 +122,28 @@
 
 <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Microchip%20Studio-EE2A24?style=flat-square&logo=microchip&logoColor=white" alt="Microchip Studio"> <img src="https://img.shields.io/badge/Timer-555555?style=flat-square" alt="Timer"> <img src="https://img.shields.io/badge/Interrupt-555555?style=flat-square" alt="Interrupt"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART"> <img src="https://img.shields.io/badge/PWM-0078D4?style=flat-square" alt="PWM"> · 개인 프로젝트
 
-- 초음파 센서 3개의 거리 측정, 칼만 필터 적용 및 장애물 대응 주행 로직 구현
-- Bluetooth UART 명령 기반 수동 주행, PWM 모터 제어 및 FND 상태 표시
-- 타이머·외부 인터럽트로 Echo 시간을 측정하고 센서 수집과 주행 제어 연결
-- [프로젝트 소개·자료](https://kevin-jwd.github.io) · [관련 AVR 실습 코드](https://github.com/Kevin-jwd/ATmega128A/tree/branch_1/ATMEGA128A/07.AUTO_CAR)
+- **개요:** 초음파 센서로 장애물에 대응하며 자율주행과 Bluetooth 수동 주행을 지원하는 ATmega128A RC Car
+- **담당:** 개별 RC Car의 센서 수집, 주행 제어 및 상태 표시 전반
+- **구현:** 초음파 센서 3개와 칼만 필터를 이용한 장애물 대응, 타이머·외부 인터럽트 기반 Echo 시간 측정, Bluetooth UART 명령 처리, PWM 모터 제어 및 FND 표시
+- **관련 문서:** [프로젝트 소개·자료](https://kevin-jwd.github.io) · [관련 AVR 실습 코드](https://github.com/Kevin-jwd/ATmega128A/tree/branch_1/ATMEGA128A/07.AUTO_CAR)
 
 ### [ATmega128A — LCD·RTC 드라이버](https://github.com/Kevin-jwd/ATmega128A/tree/branch_1/ATMEGA128A/13.RTC_LCD_CALC)
 
 <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Microchip%20Studio-EE2A24?style=flat-square&logo=microchip&logoColor=white" alt="Microchip Studio"> <img src="https://img.shields.io/badge/GPIO-555555?style=flat-square" alt="GPIO"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> · 팀 프로젝트
 
-- **담당:** GPIO 4비트 LCD 드라이버, I2C RTC 시간 읽기·표시 기능
-- **문제 해결:** 메모리 주소·데이터 중심의 전송 구조를 데이터시트와 대조하고, Slave 주소와 메모리 주소를 구분한 접근 절차로 수정
-- LCD·RTC 기능과 팀원이 구현한 계산기 기능 통합
+- **개요:** ATmega128A에서 RTC의 시간을 읽어 LCD에 표시하고 계산기 기능과 통합한 시스템
+- **담당:** GPIO 4비트 LCD 드라이버와 I2C RTC 시간 읽기·표시. 계산기 기능은 팀원 담당
+- **구현:** LCD 초기화·문자 출력, RTC 시간 읽기·표시, Slave 주소와 메모리 주소를 구분한 I2C 접근 절차 적용
+- **관련 문서:** [LCD·RTC 구현 코드](https://github.com/Kevin-jwd/ATmega128A/tree/branch_1/ATMEGA128A/13.RTC_LCD_CALC) · [프로젝트 소개·자료](https://kevin-jwd.github.io)
 
 ### IMU 기반 가정용 Personal Training 시스템
 
 <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"> <img src="https://img.shields.io/badge/LSM9DS1%20%C3%97%204-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="LSM9DS1 × 4"> <img src="https://img.shields.io/badge/PCA9548A-555555?style=flat-square" alt="PCA9548A"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> <img src="https://img.shields.io/badge/UDP%2FTCP-0078D4?style=flat-square" alt="UDP/TCP"> <img src="https://img.shields.io/badge/Unity-222222?style=flat-square&logo=unity&logoColor=white" alt="Unity"> · 졸업작품
 
-- I2C MUX를 통한 4개 IMU 데이터 수집, 쿼터니언 기반 자세 추정 및 Unity 모델 연동
-- 자력계 캘리브레이션·Low-pass 필터 적용을 통한 센서 데이터 안정화
-- ESP32 → UDP 로컬 서버 → TCP Unity 데이터 전달 구조 구현
-- **2024 한국통신학회 학부 우수논문 장려상 수상** · [포트폴리오](https://kevin-jwd.github.io)
+- **개요:** 여러 IMU로 신체 움직임을 수집하고 Unity 모델과 연동하는 가정용 Personal Training 시스템
+- **담당:** IMU 데이터 수집, 센서 보정·자세 추정 및 ESP32·서버·Unity 간 데이터 전달
+- **구현:** I2C MUX를 통한 IMU 4개 수집, 쿼터니언 기반 자세 추정, 자력계 캘리브레이션·Low-pass 필터, ESP32 → UDP 로컬 서버 → TCP Unity 전달
+- **관련 문서:** [프로젝트 소개·수상 내역](https://kevin-jwd.github.io)
 
 ### 기타 구현·학습 프로젝트
 
@@ -196,3 +197,4 @@
 <br>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:E34C26,10:DA5B0B,30:C6538C,75:3572A5,100:A371F7&height=40&section=footer&text=&fontSize=0" width="100%" alt="Gradient footer">
+
