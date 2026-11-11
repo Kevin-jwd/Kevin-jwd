@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E34C26,25:DA5B0B,50:C6538C,75:3572A5,100:A371F7&height=140&section=header&text=&fontSize=0" width="100%" alt="Gradient header">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:38BDF8&height=140&section=header&text=&fontSize=0" width="100%" alt="Gradient header">
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 
 </div>
 
-## 👋 About Me
+## 👋 소개
 
 - 한국공학대학교 전자공학부 전자공학과 졸업 (2025.02)
 - **MCU 제어:** ATmega128A의 타이머·인터럽트·UART·PWM을 활용한 센서·모터 제어
@@ -25,89 +25,69 @@
 
 ## 🛠 Tech Stack
 
-<h3 align="center">Languages</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="C">
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Verilog%20HDL-654FF0?style=for-the-badge" alt="Verilog HDL">
-</p>
-
-<h3 align="center">MCU & Boards</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/ATmega128A-EE2A24?style=for-the-badge&logo=microchip&logoColor=white" alt="ATmega128A">
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32">
-  <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32">
-  <img src="https://img.shields.io/badge/ARM%20Cortex--M4-0091BD?style=for-the-badge&logo=arm&logoColor=white" alt="ARM Cortex-M4">
-  <img src="https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino">
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi">
-  <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Jetson Orin Nano">
-</p>
-
-<h3 align="center">AI & Vision</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
-  <img src="https://img.shields.io/badge/YOLO-111F68?style=for-the-badge" alt="YOLO">
-  <img src="https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="TensorRT">
-</p>
-
-<h3 align="center">Linux Driver & Interfaces</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Linux%20Kernel-333333?style=for-the-badge" alt="Linux Kernel">
-  <img src="https://img.shields.io/badge/I2C-0078D4?style=for-the-badge" alt="I2C">
-  <img src="https://img.shields.io/badge/Device%20Tree-00897B?style=for-the-badge" alt="Device Tree">
-  <img src="https://img.shields.io/badge/UART-0078D4?style=for-the-badge" alt="UART">
-</p>
-
-<h3 align="center">HMI & Database</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/Qt%20Widgets-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="Qt Widgets">
-  <img src="https://img.shields.io/badge/Qt%20SerialPort-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="Qt SerialPort">
-  <img src="https://img.shields.io/badge/PyQt-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="PyQt">
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
-</p>
-
-<h3 align="center">FPGA & Tools</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/Vivado-ED1C24?style=for-the-badge&logo=amd&logoColor=white" alt="Vivado">
-  <img src="https://img.shields.io/badge/Basys%203-555555?style=for-the-badge" alt="Basys 3">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</p>
+| 분야 | 사용 기술 |
+| --- | --- |
+| Languages | C · C++ · Python · Verilog HDL |
+| MCU & Boards | ATmega128A · ESP32 · STM32 · ARM Cortex-M4 · Arduino · Raspberry Pi · Jetson Orin Nano |
+| Linux & Interfaces | Linux Kernel · Device Tree · I2C · UART |
+| HMI & Database | Qt Widgets · Qt SerialPort · PyQt · SQLite |
+| AI & Vision | OpenCV · YOLO · TensorRT |
+| FPGA & Tools | Vivado · Basys 3 · Git · GitHub |
 
 ---
 
-## 💻 Featured Projects
+## 💻 주요 프로젝트
 
 ### [Linux Driver — 스마트 선풍기 센서·LCD 드라이버](https://github.com/Electric-fan-driver/Fan_Linux_Driver/tree/feat/input-buttons)
 
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Linux%20Kernel-333333?style=flat-square" alt="Linux Kernel"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> <img src="https://img.shields.io/badge/Device%20Tree-00897B?style=flat-square" alt="Device Tree"> <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson Orin Nano"> · 팀 프로젝트
+| 기간 | 참여 인원 | 구분 |
+| --- | --- | --- |
+| 2026.10.08 ~ 2026.10.13 | 4명 (본인 포함) | 팀 프로젝트 |
+
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Linux%20Kernel-333333?style=flat-square" alt="Linux Kernel"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> <img src="https://img.shields.io/badge/Device%20Tree-00897B?style=flat-square" alt="Device Tree"> <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson Orin Nano">
 
 - **개요:** Jetson Orin Nano에서 센서와 구동부를 연동하는 스마트 선풍기 시스템
 - **담당:** BMP180 온도 센서·LCD1602 커널 드라이버 및 사용자 공간의 문자 장치 접근 인터페이스
 - **구현:** 보정 계수·변환 완료 상태를 반영한 온도 읽기, `pwrite()` 기반 LCD 부분 갱신, `ioctl()` 기반 화면·백라이트 제어
 - **관련 문서:** [담당 범위·드라이버 구조·트러블슈팅](https://github.com/Kevin-jwd/Lectures/tree/main/Linux/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
 
+---
+
 ### [Vehicle HMI — 운전자 인증 기반 차량 제어·모니터링](https://github.com/Kevin-jwd/HMI-qt)
 
-<img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++17"> <img src="https://img.shields.io/badge/Qt%20Widgets-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt Widgets"> <img src="https://img.shields.io/badge/QSerialPort-41CD52?style=flat-square&logo=qt&logoColor=white" alt="QSerialPort"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"> · 팀 프로젝트
+| 기간 | 참여 인원 | 구분 |
+| --- | --- | --- |
+| 2026.08.14 ~ 2026.08.19 | 4명 (본인 포함) | 팀 프로젝트 |
+
+<img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++17"> <img src="https://img.shields.io/badge/Qt%20Widgets-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt Widgets"> <img src="https://img.shields.io/badge/QSerialPort-41CD52?style=flat-square&logo=qt&logoColor=white" alt="QSerialPort"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
 
 - **개요:** 얼굴 인증 후 차량 조작을 활성화하고 센서·주행 상태를 모니터링하는 Qt HMI 시스템
 - **담당:** PC 측 Qt HMI, UART 송수신, 얼굴 인증, 영상 처리 스레드 구성 및 이력 관리. 팀원이 구현한 STM32 펌웨어와 연동
 - **구현:** Haar Cascade·LBPH 얼굴 인증과 동일 인물 5회 연속 확인, 카메라 획득·표시·인식 스레드 분리, 200ms 하트비트, 센서 상태 표시 및 SQLite 이력 조회
 - **관련 문서:** [얼굴 인증](https://github.com/Kevin-jwd/HMI-qt/blob/main/FACE_RECOGNITION_GUIDE.md) · [데이터베이스](https://github.com/Kevin-jwd/HMI-qt/blob/main/DATABASE.md) · [설치·실행](https://github.com/Kevin-jwd/HMI-qt/blob/main/INSTALL.md)
 
+---
+
 ### [Vision Tracker — 인물 추적 팬틸트 카메라](https://github.com/Vision-Tracker-Project/Vision_Tracker_Project)
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/YOLO11-111F68?style=flat-square" alt="YOLO11"> <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="TensorRT"> <img src="https://img.shields.io/badge/BoT--SORT-654FF0?style=flat-square" alt="BoT-SORT"> <img src="https://img.shields.io/badge/OSNet-654FF0?style=flat-square" alt="OSNet"> <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson Orin Nano"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART"> · 팀 프로젝트
+| 기간 | 참여 인원 | 구분 |
+| --- | --- | --- |
+| 2026.09.02 ~ 2026.09.16 | 4명 (본인 포함) | 팀 프로젝트 |
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/YOLO11-111F68?style=flat-square" alt="YOLO11"> <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="TensorRT"> <img src="https://img.shields.io/badge/BoT--SORT-654FF0?style=flat-square" alt="BoT-SORT"> <img src="https://img.shields.io/badge/OSNet-654FF0?style=flat-square" alt="OSNet"> <img src="https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Jetson Orin Nano"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART">
 
 - **개요:** 선택한 인물을 카메라로 자동 추적하고 게임패드로 차체를 수동 조작하는 Jetson 기반 팬틸트 시스템
 - **담당:** 웹 실행 환경, AI 인물 추적·재식별, 팬틸트 제어 로직·MCU 명령 전송, 카메라·차체 제작. MCU 펌웨어는 팀원 담당
 - **구현:** YOLO 검출·BoT-SORT 추적·OSNet 재식별, 최근 3개 검출 박스의 중앙값 필터, 팬틸트 동작 시작·정지 경계 분리 및 각도 제한
 - **관련 문서:** [시스템 구조](https://github.com/Vision-Tracker-Project/Vision_Tracker_Project/blob/main/AI/ARCHITECTURE.md) · [프로젝트 소개·시연](https://github.com/Vision-Tracker-Project/Vision_Tracker_Project)
 
+---
+
 ### [I2C Sensor RTL — 센서 수집·통신·표시 시스템](https://github.com/Kevin-jwd/i2c-sensor-driver)
+
+| 기간 | 참여 인원 | 구분 |
+| --- | --- | --- |
+| YYYY.MM ~ YYYY.MM | __명 (본인 포함) | 팀 프로젝트 |
 
 <img src="https://img.shields.io/badge/Verilog-654FF0?style=flat-square" alt="Verilog"> <img src="https://img.shields.io/badge/Vivado-ED1C24?style=flat-square&logo=amd&logoColor=white" alt="Vivado"> <img src="https://img.shields.io/badge/Basys%203%20%C3%97%202-555555?style=flat-square" alt="Basys 3 × 2"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> <img src="https://img.shields.io/badge/DHT11-00897B?style=flat-square" alt="DHT11"> <img src="https://img.shields.io/badge/HC--SR04-00897B?style=flat-square" alt="HC-SR04"> <img src="https://img.shields.io/badge/SSD1306-555555?style=flat-square" alt="SSD1306">
 
@@ -116,29 +96,45 @@
 - **구현:** DHT11·HC-SR04 측정, FPGA 간 I2C 전송과 데이터 표시, 체크섬·타임아웃 검사, 센서 타이밍 파형 비교 및 모듈 테스트벤치 작성
 - **관련 문서:** [설계 설명·검증 자료](https://github.com/Kevin-jwd/i2c-sensor-driver)
 
-## 🔧 More Projects
+## 🔧 추가 프로젝트
 
 ### ATmega128A — 자율주행 RC Car
 
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Microchip%20Studio-EE2A24?style=flat-square&logo=microchip&logoColor=white" alt="Microchip Studio"> <img src="https://img.shields.io/badge/Timer-555555?style=flat-square" alt="Timer"> <img src="https://img.shields.io/badge/Interrupt-555555?style=flat-square" alt="Interrupt"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART"> <img src="https://img.shields.io/badge/PWM-0078D4?style=flat-square" alt="PWM"> · 개인 프로젝트
+| 기간 | 참여 인원 | 구분 |
+| --- | --- | --- |
+| 2026.06.22 ~ 2026.06.25 | 1명 | 개인 프로젝트 |
+
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Microchip%20Studio-EE2A24?style=flat-square&logo=microchip&logoColor=white" alt="Microchip Studio"> <img src="https://img.shields.io/badge/Timer-555555?style=flat-square" alt="Timer"> <img src="https://img.shields.io/badge/Interrupt-555555?style=flat-square" alt="Interrupt"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART"> <img src="https://img.shields.io/badge/PWM-0078D4?style=flat-square" alt="PWM">
 
 - **개요:** 초음파 센서로 장애물에 대응하며 자율주행과 Bluetooth 수동 주행을 지원하는 ATmega128A RC Car
 - **담당:** 개별 RC Car의 센서 수집, 주행 제어 및 상태 표시 전반
 - **구현:** 초음파 센서 3개와 칼만 필터를 이용한 장애물 대응, 타이머·외부 인터럽트 기반 Echo 시간 측정, Bluetooth UART 명령 처리, PWM 모터 제어 및 FND 표시
 - **관련 문서:** [프로젝트 소개·자료](https://kevin-jwd.github.io) · [관련 AVR 실습 코드](https://github.com/Kevin-jwd/ATmega128A/tree/branch_1/ATMEGA128A/07.AUTO_CAR)
 
+---
+
 ### [ATmega128A — LCD·RTC 드라이버](https://github.com/Kevin-jwd/ATmega128A/tree/branch_1/ATMEGA128A/13.RTC_LCD_CALC)
 
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Microchip%20Studio-EE2A24?style=flat-square&logo=microchip&logoColor=white" alt="Microchip Studio"> <img src="https://img.shields.io/badge/GPIO-555555?style=flat-square" alt="GPIO"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> · 팀 프로젝트
+| 기간 | 참여 인원 | 구분 |
+| --- | --- | --- |
+| 2026.07.01 ~ 2026.07.03 | 2명 (본인 포함) | 팀 프로젝트 |
+
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Microchip%20Studio-EE2A24?style=flat-square&logo=microchip&logoColor=white" alt="Microchip Studio"> <img src="https://img.shields.io/badge/GPIO-555555?style=flat-square" alt="GPIO"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C">
 
 - **개요:** ATmega128A에서 RTC의 시간을 읽어 LCD에 표시하고 계산기 기능과 통합한 시스템
 - **담당:** GPIO 4비트 LCD 드라이버와 I2C RTC 시간 읽기·표시. 계산기 기능은 팀원 담당
 - **구현:** LCD 초기화·문자 출력, RTC 시간 읽기·표시, Slave 주소와 메모리 주소를 구분한 I2C 접근 절차 적용
 - **관련 문서:** [LCD·RTC 구현 코드](https://github.com/Kevin-jwd/ATmega128A/tree/branch_1/ATMEGA128A/13.RTC_LCD_CALC) · [프로젝트 소개·자료](https://kevin-jwd.github.io)
 
+---
+
 ### IMU 기반 가정용 Personal Training 시스템
 
-<img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"> <img src="https://img.shields.io/badge/LSM9DS1%20%C3%97%204-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="LSM9DS1 × 4"> <img src="https://img.shields.io/badge/PCA9548A-555555?style=flat-square" alt="PCA9548A"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> <img src="https://img.shields.io/badge/UDP%2FTCP-0078D4?style=flat-square" alt="UDP/TCP"> <img src="https://img.shields.io/badge/Unity-222222?style=flat-square&logo=unity&logoColor=white" alt="Unity"> · 졸업작품
+| 기간 | 참여 인원 | 구분 |
+| --- | --- | --- |
+| YYYY.MM ~ YYYY.MM | 4명 (본인 포함) | 졸업작품 |
+
+<img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"> <img src="https://img.shields.io/badge/LSM9DS1%20%C3%97%204-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="LSM9DS1 × 4"> <img src="https://img.shields.io/badge/PCA9548A-555555?style=flat-square" alt="PCA9548A"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> <img src="https://img.shields.io/badge/UDP%2FTCP-0078D4?style=flat-square" alt="UDP/TCP"> <img src="https://img.shields.io/badge/Unity-222222?style=flat-square&logo=unity&logoColor=white" alt="Unity">
 
 - **개요:** 여러 IMU로 신체 움직임을 수집하고 Unity 모델과 연동하는 가정용 Personal Training 시스템
 - **담당:** IMU 데이터 수집, 센서 보정·자세 추정 및 ESP32·서버·Unity 간 데이터 전달
@@ -147,13 +143,15 @@
 
 ### 기타 구현·학습 프로젝트
 
-| 프로젝트 | 기술 | 주요 내용 |
-| --- | --- | --- |
-| [Jetson RPS Game](https://github.com/Kevin-jwd/Jetson-RSP-game) | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/YOLO11-111F68?style=flat-square" alt="YOLO11"> <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="TensorRT"> | 손동작 인식 기반 1·2인 가위바위보 게임, 0.4초 구간 다수결 판정 및 좌우 반전 추론 |
-| [Motor Control](https://github.com/Kevin-jwd/motor_control_mini_project) | <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/STM32F411-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32F411"> <img src="https://img.shields.io/badge/GPIO-555555?style=flat-square" alt="GPIO"> <img src="https://img.shields.io/badge/Timer2-555555?style=flat-square" alt="Timer2"> | 버튼 입력 시간에 따른 정회전·역회전·정지 제어, FSM·흐름도 문서화 |
-| [FPGA 기초 설계](https://github.com/Kevin-jwd/FPGA) | <img src="https://img.shields.io/badge/Verilog-654FF0?style=flat-square" alt="Verilog"> <img src="https://img.shields.io/badge/Vivado-ED1C24?style=flat-square&logo=amd&logoColor=white" alt="Vivado"> <img src="https://img.shields.io/badge/XSim-555555?style=flat-square" alt="XSim"> | 가산기·MUX·ROM·비교기·디바운싱 회로, 테스트벤치와 회로도 정리 |
+| 프로젝트 | 기술 | 주요 내용 | 기간 · 인원 |
+| --- | --- | --- | --- |
+| [Jetson RPS Game](https://github.com/Kevin-jwd/Jetson-RSP-game) | Python · YOLO11 · TensorRT | 손동작 인식 기반 1·2인 가위바위보 게임, 0.4초 구간 다수결 판정 및 좌우 반전 추론 | YYYY.MM ~ YYYY.MM · __명 |
+| [Motor Control](https://github.com/Kevin-jwd/motor_control_mini_project) | C · STM32F411 · GPIO · Timer2 | 버튼 입력 시간에 따른 정회전·역회전·정지 제어, FSM·흐름도 문서화 | YYYY.MM ~ YYYY.MM · __명 |
+| [FPGA 기초 설계](https://github.com/Kevin-jwd/FPGA) | Verilog · Vivado · XSim | 가산기·MUX·ROM·비교기·디바운싱 회로, 테스트벤치와 회로도 정리 | YYYY.MM ~ YYYY.MM · __명 |
 
-## 🎓 Education
+---
+
+## 🎓 학력 · 교육
 
 | 기간 | 소속 / 과정 |
 | --- | --- |
@@ -161,15 +159,14 @@
 | 2025.01 ~ 2025.07 | 프로그래머스 데브코스 6기 — 웹 풀 사이클 개발 |
 | 2026.05 ~ 현재 | 대한상공회의소 서울기술교육센터 AI 시스템반도체 SW개발자 과정 |
 
-## 🏆 Awards
+## 🏆 수상
 
 - **2024 한국통신학회 학술대회 학부 우수논문 장려상**  
   모션 트래킹 기반 가정용 Personal Training 시스템
 - **한국공학대학교 로봇 프로그래밍 경진대회 동상**  
   햄스터로봇을 활용한 과제 해결
 
-
-## 📫 Contact
+## 📫 연락처
 
 - **Email**: [herobine159@naver.com](mailto:herobine159@naver.com)
 - **Portfolio**: [GitHub Pages](https://kevin-jwd.github.io) · [Notion](https://puzzle-bard-f1b.notion.site/783e70bea00444908a1be0d235f03e13)
@@ -196,5 +193,5 @@
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:E34C26,10:DA5B0B,30:C6538C,75:3572A5,100:A371F7&height=40&section=footer&text=&fontSize=0" width="100%" alt="Gradient footer">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F172A,50:1D4ED8,100:38BDF8&height=40&section=footer&text=&fontSize=0" width="100%" alt="Gradient footer">
 
