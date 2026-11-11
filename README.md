@@ -38,7 +38,22 @@
 
 ## 💻 주요 프로젝트
 
-### [Linux Driver — 스마트 선풍기 센서·LCD 드라이버](https://github.com/Electric-fan-driver/Fan_Linux_Driver/tree/feat/input-buttons)
+### 01. [I2C Sensor RTL — 센서 수집·통신·표시 시스템](https://github.com/Kevin-jwd/i2c-sensor-driver)
+
+| 기간 | 참여 인원 | 구분 |
+| --- | --- | --- |
+| 2026.11.04 ~ 2026.11.06 | 2명 (본인 포함) | 팀 프로젝트 |
+
+<img src="https://img.shields.io/badge/Verilog-654FF0?style=flat-square" alt="Verilog"> <img src="https://img.shields.io/badge/Vivado-ED1C24?style=flat-square&logo=amd&logoColor=white" alt="Vivado"> <img src="https://img.shields.io/badge/Basys%203%20%C3%97%202-555555?style=flat-square" alt="Basys 3 × 2"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> <img src="https://img.shields.io/badge/DHT11-00897B?style=flat-square" alt="DHT11"> <img src="https://img.shields.io/badge/HC--SR04-00897B?style=flat-square" alt="HC-SR04"> <img src="https://img.shields.io/badge/SSD1306-555555?style=flat-square" alt="SSD1306">
+
+- **개요:** 두 FPGA를 I2C로 연결해 온습도·거리 데이터를 수집하고 FND·OLED로 표시하는 시스템
+- **담당:** I2C Master·Slave 양쪽과 센서 수집·FND·OLED 표시 등 RTL 전반 직접 구현
+- **구현:** DHT11·HC-SR04 측정, FPGA 간 I2C 전송과 데이터 표시, 체크섬·타임아웃 검사, 센서 타이밍 파형 비교 및 모듈 테스트벤치 작성
+- **관련 문서:** [설계 설명·검증 자료](https://github.com/Kevin-jwd/i2c-sensor-driver)
+
+---
+
+### 02. [Linux Driver — 스마트 선풍기 센서·LCD 드라이버](https://github.com/Electric-fan-driver/Fan_Linux_Driver/tree/feat/input-buttons)
 
 | 기간 | 참여 인원 | 구분 |
 | --- | --- | --- |
@@ -53,22 +68,7 @@
 
 ---
 
-### [Vehicle HMI — 운전자 인증 기반 차량 제어·모니터링](https://github.com/Kevin-jwd/HMI-qt)
-
-| 기간 | 참여 인원 | 구분 |
-| --- | --- | --- |
-| 2026.08.14 ~ 2026.08.19 | 4명 (본인 포함) | 팀 프로젝트 |
-
-<img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++17"> <img src="https://img.shields.io/badge/Qt%20Widgets-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt Widgets"> <img src="https://img.shields.io/badge/QSerialPort-41CD52?style=flat-square&logo=qt&logoColor=white" alt="QSerialPort"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
-
-- **개요:** 얼굴 인증 후 차량 조작을 활성화하고 센서·주행 상태를 모니터링하는 Qt HMI 시스템
-- **담당:** PC 측 Qt HMI, UART 송수신, 얼굴 인증, 영상 처리 스레드 구성 및 이력 관리. 팀원이 구현한 STM32 펌웨어와 연동
-- **구현:** Haar Cascade·LBPH 얼굴 인증과 동일 인물 5회 연속 확인, 카메라 획득·표시·인식 스레드 분리, 200ms 하트비트, 센서 상태 표시 및 SQLite 이력 조회
-- **관련 문서:** [얼굴 인증](https://github.com/Kevin-jwd/HMI-qt/blob/main/FACE_RECOGNITION_GUIDE.md) · [데이터베이스](https://github.com/Kevin-jwd/HMI-qt/blob/main/DATABASE.md) · [설치·실행](https://github.com/Kevin-jwd/HMI-qt/blob/main/INSTALL.md)
-
----
-
-### [Vision Tracker — 인물 추적 팬틸트 카메라](https://github.com/Vision-Tracker-Project/Vision_Tracker_Project)
+### 03. [Vision Tracker — 인물 추적 팬틸트 카메라](https://github.com/Vision-Tracker-Project/Vision_Tracker_Project)
 
 | 기간 | 참여 인원 | 구분 |
 | --- | --- | --- |
@@ -83,37 +83,22 @@
 
 ---
 
-### [I2C Sensor RTL — 센서 수집·통신·표시 시스템](https://github.com/Kevin-jwd/i2c-sensor-driver)
+### 04. [Vehicle HMI — 운전자 인증 기반 차량 제어·모니터링](https://github.com/Kevin-jwd/HMI-qt)
 
 | 기간 | 참여 인원 | 구분 |
 | --- | --- | --- |
-| 2026.11.04 ~ 2026.11.06 | 2명 (본인 포함) | 팀 프로젝트 |
+| 2026.08.14 ~ 2026.08.19 | 4명 (본인 포함) | 팀 프로젝트 |
 
-<img src="https://img.shields.io/badge/Verilog-654FF0?style=flat-square" alt="Verilog"> <img src="https://img.shields.io/badge/Vivado-ED1C24?style=flat-square&logo=amd&logoColor=white" alt="Vivado"> <img src="https://img.shields.io/badge/Basys%203%20%C3%97%202-555555?style=flat-square" alt="Basys 3 × 2"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> <img src="https://img.shields.io/badge/DHT11-00897B?style=flat-square" alt="DHT11"> <img src="https://img.shields.io/badge/HC--SR04-00897B?style=flat-square" alt="HC-SR04"> <img src="https://img.shields.io/badge/SSD1306-555555?style=flat-square" alt="SSD1306">
+<img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++17"> <img src="https://img.shields.io/badge/Qt%20Widgets-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt Widgets"> <img src="https://img.shields.io/badge/QSerialPort-41CD52?style=flat-square&logo=qt&logoColor=white" alt="QSerialPort"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
 
-- **개요:** 두 FPGA를 I2C로 연결해 온습도·거리 데이터를 수집하고 FND·OLED로 표시하는 시스템
-- **담당:** I2C Master·Slave 양쪽과 센서 수집·FND·OLED 표시 등 RTL 전반 직접 구현
-- **구현:** DHT11·HC-SR04 측정, FPGA 간 I2C 전송과 데이터 표시, 체크섬·타임아웃 검사, 센서 타이밍 파형 비교 및 모듈 테스트벤치 작성
-- **관련 문서:** [설계 설명·검증 자료](https://github.com/Kevin-jwd/i2c-sensor-driver)
-
-## 🔧 추가 프로젝트
-
-### ATmega128A — 자율주행 RC Car
-
-| 기간 | 참여 인원 | 구분 |
-| --- | --- | --- |
-| 2026.06.22 ~ 2026.06.25 | 1명 | 개인 프로젝트 |
-
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Microchip%20Studio-EE2A24?style=flat-square&logo=microchip&logoColor=white" alt="Microchip Studio"> <img src="https://img.shields.io/badge/Timer-555555?style=flat-square" alt="Timer"> <img src="https://img.shields.io/badge/Interrupt-555555?style=flat-square" alt="Interrupt"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART"> <img src="https://img.shields.io/badge/PWM-0078D4?style=flat-square" alt="PWM">
-
-- **개요:** 초음파 센서로 장애물에 대응하며 자율주행과 Bluetooth 수동 주행을 지원하는 ATmega128A RC Car
-- **담당:** 개별 RC Car의 센서 수집, 주행 제어 및 상태 표시 전반
-- **구현:** 초음파 센서 3개와 칼만 필터를 이용한 장애물 대응, 타이머·외부 인터럽트 기반 Echo 시간 측정, Bluetooth UART 명령 처리, PWM 모터 제어 및 FND 표시
-- **관련 문서:** [프로젝트 소개·자료](https://kevin-jwd.github.io) · [관련 AVR 실습 코드](https://github.com/Kevin-jwd/ATmega128A/tree/branch_1/ATMEGA128A/07.AUTO_CAR)
+- **개요:** 얼굴 인증 후 차량 조작을 활성화하고 센서·주행 상태를 모니터링하는 Qt HMI 시스템
+- **담당:** PC 측 Qt HMI, UART 송수신, 얼굴 인증, 영상 처리 스레드 구성 및 이력 관리. 팀원이 구현한 STM32 펌웨어와 연동
+- **구현:** Haar Cascade·LBPH 얼굴 인증과 동일 인물 5회 연속 확인, 카메라 획득·표시·인식 스레드 분리, 200ms 하트비트, 센서 상태 표시 및 SQLite 이력 조회
+- **관련 문서:** [얼굴 인증](https://github.com/Kevin-jwd/HMI-qt/blob/main/FACE_RECOGNITION_GUIDE.md) · [데이터베이스](https://github.com/Kevin-jwd/HMI-qt/blob/main/DATABASE.md) · [설치·실행](https://github.com/Kevin-jwd/HMI-qt/blob/main/INSTALL.md)
 
 ---
 
-### [ATmega128A — LCD·RTC 드라이버](https://github.com/Kevin-jwd/ATmega128A/tree/branch_1/ATMEGA128A/13.RTC_LCD_CALC)
+### 05. [ATmega128A — LCD·RTC 드라이버](https://github.com/Kevin-jwd/atmega128-rtc-lcd-clock)
 
 | 기간 | 참여 인원 | 구분 |
 | --- | --- | --- |
@@ -124,22 +109,37 @@
 - **개요:** ATmega128A에서 RTC의 시간을 읽어 LCD에 표시하고 계산기 기능과 통합한 시스템
 - **담당:** GPIO 4비트 LCD 드라이버와 I2C RTC 시간 읽기·표시. 계산기 기능은 팀원 담당
 - **구현:** LCD 초기화·문자 출력, RTC 시간 읽기·표시, Slave 주소와 메모리 주소를 구분한 I2C 접근 절차 적용
-- **관련 문서:** [LCD·RTC 구현 코드](https://github.com/Kevin-jwd/ATmega128A/tree/branch_1/ATMEGA128A/13.RTC_LCD_CALC) · [프로젝트 소개·자료](https://kevin-jwd.github.io)
+- **관련 문서:** [LCD·RTC 구현 코드](https://github.com/Kevin-jwd/atmega128-rtc-lcd-clock) · [프로젝트 소개·자료](https://kevin-jwd.github.io/projects/lcd-rtc.html)
 
 ---
 
-### IMU 기반 가정용 Personal Training 시스템
+### 06. [ATmega128A — 자율주행 RC Car](https://github.com/Kevin-jwd/rc-car-control)
 
 | 기간 | 참여 인원 | 구분 |
 | --- | --- | --- |
-| YYYY.MM ~ YYYY.MM | 4명 (본인 포함) | 졸업작품 |
+| 2026.06.22 ~ 2026.06.25 | 1명 (개별 차량) | 개인 구현 · 공동 발표 |
+
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"> <img src="https://img.shields.io/badge/Microchip%20Studio-EE2A24?style=flat-square&logo=microchip&logoColor=white" alt="Microchip Studio"> <img src="https://img.shields.io/badge/Timer-555555?style=flat-square" alt="Timer"> <img src="https://img.shields.io/badge/Interrupt-555555?style=flat-square" alt="Interrupt"> <img src="https://img.shields.io/badge/UART-0078D4?style=flat-square" alt="UART"> <img src="https://img.shields.io/badge/PWM-0078D4?style=flat-square" alt="PWM">
+
+- **개요:** 초음파 센서로 장애물에 대응하며 자율주행과 Bluetooth 수동 주행을 지원하는 ATmega128A RC Car
+- **담당:** 개별 RC Car의 센서 수집, 주행 제어 및 상태 표시 전반
+- **구현:** 초음파 센서 3개와 칼만 필터를 이용한 장애물 대응, 타이머·외부 인터럽트 기반 Echo 시간 측정, Bluetooth UART 명령 처리, PWM 모터 제어 및 FND 표시
+- **관련 문서:** [프로젝트 소개·자료](https://kevin-jwd.github.io/projects/rc-car.html) · [소스 코드·구현 문서](https://github.com/Kevin-jwd/rc-car-control)
+
+## 🔧 추가 프로젝트
+
+### 07. IMU 기반 가정용 Personal Training 시스템
+
+| 기간 | 참여 인원 | 구분 |
+| --- | --- | --- |
+| 기간 미기재 | 4명 (본인 포함) | 졸업작품 |
 
 <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"> <img src="https://img.shields.io/badge/LSM9DS1%20%C3%97%204-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="LSM9DS1 × 4"> <img src="https://img.shields.io/badge/PCA9548A-555555?style=flat-square" alt="PCA9548A"> <img src="https://img.shields.io/badge/I2C-0078D4?style=flat-square" alt="I2C"> <img src="https://img.shields.io/badge/UDP%2FTCP-0078D4?style=flat-square" alt="UDP/TCP"> <img src="https://img.shields.io/badge/Unity-222222?style=flat-square&logo=unity&logoColor=white" alt="Unity">
 
 - **개요:** 여러 IMU로 신체 움직임을 수집하고 Unity 모델과 연동하는 가정용 Personal Training 시스템
 - **담당:** IMU 데이터 수집, 센서 보정·자세 추정 및 ESP32·서버·Unity 간 데이터 전달
 - **구현:** I2C MUX를 통한 IMU 4개 수집, 쿼터니언 기반 자세 추정, 자력계 캘리브레이션·Low-pass 필터, ESP32 → UDP 로컬 서버 → TCP Unity 전달
-- **관련 문서:** [프로젝트 소개·수상 내역](https://kevin-jwd.github.io)
+- **관련 문서:** [프로젝트 소개·수상 내역](https://kevin-jwd.github.io/projects/imu-pt.html)
 
 ### 기타 구현·학습 프로젝트
 
