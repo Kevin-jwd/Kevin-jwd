@@ -14,6 +14,9 @@
 
 </div>
 
+> **[포트폴리오 상세 보기 →](https://kevin-jwd.github.io)**
+> 프로젝트별 구현 과정, 시스템 구조와 시연 자료는 포트폴리오에서 확인하실 수 있습니다.
+
 ## 👋 소개
 
 - 한국공학대학교 전자공학부 전자공학과 졸업 (2025.02)
@@ -40,6 +43,8 @@
 
 ### 01. [I2C Sensor RTL — 센서 수집·통신·표시 시스템](https://github.com/Kevin-jwd/i2c-sensor-driver)
 
+**[프로젝트 상세 보기 →](https://kevin-jwd.github.io/projects/i2c-rtl.html)**
+
 | 기간 | 참여 인원 | 구분 |
 | --- | --- | --- |
 | 2026.11.04 ~ 2026.11.06 | 2명 (본인 포함) | 팀 프로젝트 |
@@ -54,6 +59,8 @@
 ---
 
 ### 02. [Linux Driver — 스마트 선풍기 센서·LCD 드라이버](https://github.com/Electric-fan-driver/Fan_Linux_Driver/tree/feat/input-buttons)
+
+**[프로젝트 상세 보기 →](https://kevin-jwd.github.io/projects/smart-fan.html)**
 
 | 기간 | 참여 인원 | 구분 |
 | --- | --- | --- |
@@ -70,6 +77,8 @@
 
 ### 03. [Vision Tracker — 인물 추적 팬틸트 카메라](https://github.com/Vision-Tracker-Project/Vision_Tracker_Project)
 
+**[프로젝트 상세 보기 →](https://kevin-jwd.github.io/projects/vision-tracker.html)**
+
 | 기간 | 참여 인원 | 구분 |
 | --- | --- | --- |
 | 2026.09.02 ~ 2026.09.16 | 4명 (본인 포함) | 팀 프로젝트 |
@@ -84,6 +93,8 @@
 ---
 
 ### 04. [Vehicle HMI — 운전자 인증 기반 차량 제어·모니터링](https://github.com/Kevin-jwd/HMI-qt)
+
+**[프로젝트 상세 보기 →](https://kevin-jwd.github.io/projects/vehicle-hmi.html)**
 
 | 기간 | 참여 인원 | 구분 |
 | --- | --- | --- |
@@ -100,6 +111,8 @@
 
 ### 05. [ATmega128A — LCD·RTC 드라이버](https://github.com/Kevin-jwd/atmega128-rtc-lcd-clock)
 
+**[프로젝트 상세 보기 →](https://kevin-jwd.github.io/projects/lcd-rtc.html)**
+
 | 기간 | 참여 인원 | 구분 |
 | --- | --- | --- |
 | 2026.07.01 ~ 2026.07.03 | 2명 (본인 포함) | 팀 프로젝트 |
@@ -114,6 +127,8 @@
 ---
 
 ### 06. [ATmega128A — 자율주행 RC Car](https://github.com/Kevin-jwd/rc-car-control)
+
+**[프로젝트 상세 보기 →](https://kevin-jwd.github.io/projects/rc-car.html)**
 
 | 기간 | 참여 인원 | 구분 |
 | --- | --- | --- |
